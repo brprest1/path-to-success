@@ -68,10 +68,16 @@ table {
 
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
+@media screen and (min-width: 620px) {
 
+}
 
 /* --------------------- MEDIA QUERY (large) ---------------------- */
+@media screen and (min-width: 950px) {
 
+}
 
 /* ---------------------- MEDIA QUERY (xl) ------------------------ */
-
+@media screen and (min-width: 1280px) {
+    
+}
