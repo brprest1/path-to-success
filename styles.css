@@ -65,7 +65,59 @@ table {
 }
 
 /* -------------- GLOBAL STYLES (mobile first/small) -------------- */
+html {
+	background-color: var(--purple);
+}
 
+h1, h2 {
+	font-family: Kavoon;
+}
+
+p, h3, h4 {
+	font-family: Inter;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+nav h2, h3 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.15em;
+}
+
+header {
+	color: var(--white);
+	text-align: center;
+}
+
+header h1 {
+	background-color: var(--lavender);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	position: relative;
+	z-index: 2;
+	padding: 70px 0 40px 0;
+}
+
+header p {
+	background-color: var(--pink);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	max-width: 97%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+	padding: 25px 0 5px 0;
+	font-style: italic;
+}
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
 @media screen and (min-width: 620px) {
