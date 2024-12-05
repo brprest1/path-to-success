@@ -157,8 +157,11 @@ nav h2:hover {
 }
 
 main {
-	margin: 10px;
 	line-height: 25px;
+}
+
+#services, #pricing {
+	margin: 10px;
 }
 
 h2 {
@@ -182,6 +185,11 @@ h4 {
 	color: var(--purple);
 	font-weight: bold;
 	margin: 0 0 5px 0;
+}
+
+#choose-us, #first-step {
+	background-color: var(--pink);
+	padding: 15px;
 }
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
