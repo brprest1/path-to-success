@@ -102,9 +102,12 @@ header h1 {
 	background-color: var(--lavender);
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-	position: relative;
-	z-index: 2;
+	position: absolute;
 	padding: 70px 0 40px 0;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
 }
 
 header p {
@@ -114,9 +117,21 @@ header p {
 	max-width: 97%;
 	margin: auto;
 	position: relative;
-	z-index: 1;
-	padding: 25px 0 5px 0;
+	padding: 180px 0 5px 0;
 	font-style: italic;
+	color: transparent;
+	z-index: 1;
+}
+
+header p::before {
+	content: "Unlock your full potential";
+	visibility: visible;
+	position: absolute;
+	color: var(--white);
+	text-align: center;
+	bottom: 5px;
+	right: 0;
+	left: 0;
 }
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
