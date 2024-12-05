@@ -73,7 +73,7 @@ h1, h2 {
 	font-family: Kavoon;
 }
 
-p, h3, h4 {
+p, h3, h4, nav h2 {
 	font-family: Inter;
 }
 
@@ -132,6 +132,27 @@ header p::before {
 	bottom: 5px;
 	right: 0;
 	left: 0;
+}
+
+nav ul {
+	display: none;
+}
+
+nav h2 {
+	background-color: var(--yellow);
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	padding: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+nav h2:hover {
+	color: var(--white);
 }
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
