@@ -73,7 +73,7 @@ h1, h2 {
 	font-family: Kavoon;
 }
 
-p, h3, h4, nav h2, li {
+p, h3, h4, nav h2, li, table {
 	font-family: Inter;
 }
 
@@ -226,9 +226,24 @@ h4 {
 	margin: 7.5px 0 0 7.5px;
 }
 
-/* #choose-us ul li {
+table {
+	margin: 10px auto 10px auto;
+}
 
-} */
+table, th, td {
+	border: 2px solid var(--yellow);
+	padding: 10px;
+}
+
+th {
+	background-color: var(--yellow);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+td {
+	background-color: var(--white);
+}
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
 @media screen and (min-width: 620px) {
