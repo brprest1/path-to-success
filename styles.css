@@ -115,7 +115,7 @@ header p {
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 	max-width: 97%;
-	margin: auto;
+	margin: auto auto 50px auto;
 	position: relative;
 	padding: 180px 0 5px 0;
 	font-style: italic;
@@ -139,6 +139,7 @@ nav ul {
 }
 
 nav h2 {
+	color: var(--dark-gray);
 	background-color: var(--yellow);
 	font-weight: bold;
 	font-style: italic;
@@ -153,6 +154,34 @@ nav h2 {
 
 nav h2:hover {
 	color: var(--white);
+}
+
+main {
+	margin: 10px;
+	line-height: 25px;
+}
+
+h2 {
+	color: var(--white);
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	color: var(--yellow);
+	font-weight: bold;
+}
+
+.service {
+	background-color: var(--white);
+	margin: 15px;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+h4 {
+	color: var(--purple);
+	font-weight: bold;
+	margin: 0 0 5px 0;
 }
 
 /* --------------------- MEDIA QUERY (medium) --------------------- */
